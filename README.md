@@ -71,7 +71,7 @@ Alle in diesem Projekt verwendeten Daten wurden vom Autor zu Ausbildungszwecken 
 ---
 
 ## Über mich
-Ich bin Studentin im Studiengang **Cyber Security (B.Sc.)** mit besonderem Interesse an **IT-Forensik** und digitaler Beweissicherung im öffentlichen Dienst. Dieses Projekt entstand im Eigenstudium zur Vertiefung forensischer Kompetenzen – insbesondere im Hinblick auf eine berufliche Tätigkeit im behördlichen Umfeld.
+Ich bin Studentin im Studiengang **Cyber Security (B.Sc.)** mit besonderem Interesse an **IT-Forensik** und digitaler Beweissicherung im öffentlichen Dienst. Dieses Projekt entstand im Eigenstudium zur Vertiefung forensischer Kompetenzen.
 
 ---
 
