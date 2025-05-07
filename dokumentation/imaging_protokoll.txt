@@ -1,1 +1,23 @@
+Forensisches Imaging-Protokoll
 
+Datum der Image-Erstellung: 06.05.2025
+Erstellt von: R. Metz
+
+Tool: FTK Imager 4.7.3.81
+Analyse-Umgebung: Windows 10 Pro, 64-Bit
+
+Zielmedium: USB-Stick (FAT16), Kapazität: 1,99 GB
+Zielverzeichnis: ./images/usb_image.001
+Image-Format: RAW (.dd)
+
+Verwendete Optionen:
+- Verify after creation: JA
+- Precalculate statistics: NEIN
+- Hashprüfung: MD5, SHA1
+
+Berechnete Hashwerte:
+- MD5: fbed49a7180efb3c371a3ea85a5e2608
+- SHA1: bf0621d955e244938e6b5bfac00fcede0a63d33f
+
+Kommentar:
+Das Image wurde in einem isolierten Testsystem erstellt. Es erfolgte kein schreibender Zugriff auf das Ursprungsmedium.
