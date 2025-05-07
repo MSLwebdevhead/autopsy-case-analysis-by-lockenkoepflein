@@ -89,6 +89,7 @@ Beispiele:
 
 Solche Zeitstempel-Muster lassen sich als Hinweis auf gezielte inhaltliche Bearbeitungen interpretieren – insbesondere, wenn sie in engem zeitlichen Zusammenhang mit Löschvorgängen oder Zugriffen stehen.
 
+[Dateiübersicht der analysierten Zeitstempel](../dokumentation/usb_image.001.csv)
 
 ### 4.3 Artefakte
 
