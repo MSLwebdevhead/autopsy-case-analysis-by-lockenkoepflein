@@ -1,74 +1,99 @@
 # Forensische Analyse eines USB-Sticks – Fallstudie mit Autopsy
 
-## Projektübersicht
-Dieses Projekt simuliert eine reale forensische Untersuchung eines USB-Sticks. Ziel ist es, gelöschte, manipulierte oder verdächtige Dateien wiederherzustellen und die Benutzeraktivität nachvollziehbar zu dokumentieren. Das Image wurde auf einem präparierten USB-Stick selbst erstellt, analysiert und in einem strukturierten Gutachten ausgewertet.
+## 🕵️ Projektübersicht
 
-Die Untersuchung wurde mit dem forensischen Tool **Autopsy** durchgeführt.
-
----
-
-## Fallbeschreibung
-Am Arbeitsplatz wird ein USB-Stick gefunden, dessen Inhalt auf eine mögliche missbräuchliche Nutzung hindeutet. Es besteht der Verdacht, dass vertrauliche Dokumente und Programme zur Umgehung von Sicherheitsrichtlinien darauf gespeichert wurden. Einige Dateien scheinen gelöscht oder manipuliert worden zu sein.
+Dieses Projekt simuliert eine realistische forensische Untersuchung eines USB-Sticks im Kontext eines möglichen Datenmissbrauchs im beruflichen Umfeld. Ziel war es, gelöschte, bearbeitete oder verdächtig benannte Dateien zu rekonstruieren und anhand digitaler Artefakte eine plausible Nutzungshistorie nachzuvollziehen. Die Ergebnisse wurden in einem strukturierten forensischen Bericht dokumentiert.
 
 ---
 
-## Zielsetzung
-- Erstellung eines forensischen Images des USB-Sticks im RAW-Format
-- Rekonstruktion gelöschter Dateien
-- Analyse von Dateinamen, Zeitstempeln und Ordnerstrukturen
-- Beurteilung der Relevanz der aufgefundenen Daten
+## 📁 Fallbeschreibung
+
+Am 06.05.2025 wurde ein USB-Stick aufgefunden, dessen Inhalt Hinweise auf die Speicherung vertraulicher oder unerlaubter Dateien liefert. Mehrere Dateien schienen gelöscht oder manipuliert worden zu sein. Die Analyse erfolgte mit dem Ziel, gelöschte Inhalte wiederherzustellen, Zeitstempel zu interpretieren und die Nutzung systematisch zu dokumentieren.
 
 ---
 
-## Methodik
+## 🎯 Zielsetzung
 
-### Vorbereitung
-1. Erstellung eines realitätsnahen Datei-Sets auf dem USB-Stick:
-   - `vpn_zugangsdaten.txt`
-   - `gehaltsliste_2022.xlsx`
-   - `putty.exe` (Platzhalterdatei)
-   - `nudes.jpg` (harmloses Testbild)
-2. Teilweises Löschen und Bearbeiten der Dateien
-3. Strukturierung in Ordnern wie `/Privat`, `/Zugänge`, `/Gelöscht`
+- Erstellung eines forensischen Images im RAW-Format mit FTK Imager
+- Integritätsnachweis über MD5-/SHA1-Hashwerte
+- Analyse gelöschter, modifizierter und auffälliger Dateien
+- Rekonstruktion von Nutzungsmustern anhand von MACB-Zeitstempeln und Artefakten
+- Erstellung eines professionellen forensischen Untersuchungsberichts
 
-### Imaging
-- Erstellung eines forensischen 1:1-Abbilds (`.dd`) mit **FTK Imager**
-- Berechnung von MD5- und SHA1-Hashwerten
-- Sicherung des Images auf separatem Datenträger
+---
 
-### Analyse
-- Import des Images in **Autopsy**
-- Aktivierung der Module:
+## 🔧 Methodik
+
+### 1. Vorbereitung
+
+Ein USB-Stick wurde mit Testdaten präpariert:
+- Office-Dateien, Bildmaterial, eine verdächtige `.exe`, ZIP-Archiv
+- Strukturierung in Ordnern wie `/Privat`, `/Zugänge`, `/Gelöscht`
+- Teilweise Bearbeitung und Löschung der Inhalte
+
+### 2. Imaging
+
+- Erstellung eines 1:1-Abbilds mit **FTK Imager** (`.dd`)
+- Aktivierung von „Verify After Creation“
+- Berechnung und Dokumentation der Hashwerte (MD5 & SHA1)
+
+### 3. Analyse mit Autopsy
+
+- Import des forensischen Images
+- Aktivierte Module:
+  - Datei-Analyse & Dateitypen
   - Gelöschte Dateien
-  - Zeitstempel / MACB-Timeline
-  - Dateisystemstruktur
-  - Dateitypen-Übersicht
-- Screenshots und Notizen zur Auswertung
+  - Zeitstempel (MACB)
+- Dokumentation per Screenshots und CSV-Exports
 
 ---
 
-## Ergebnisse (Beispiele)
-- **Gelöschte Datei wiederhergestellt**: `vpn_zugangsdaten.txt` mit Referenzen auf interne Systeme
-- **Manipulierter Zeitstempel** bei `gehaltsliste_2022.xlsx` – Diskrepanz zwischen „Last Access“ und „Modified“
-- **Datei mit auffälligem Namen** (`nudes.jpg`) in `/Privat`, geöffnet vor Löschung
-- Leerer ZIP-Container (`keylogger.zip`) gefunden, jedoch ohne Inhalt
+## 📊 Ergebnisse (Auszug)
+
+| Fund | Bewertung |
+|------|-----------|
+| `vpn_zugangsdaten.txt` (gelöscht) | Inhalt rekonstruierbar, enthält Login-Daten |
+| `gehaltsliste_2022.xlsx` (gelöscht) | Interne Personalinformation, wiederherstellbar |
+| `nudes.jpg` | Provokanter Name, unbedenklicher Inhalt, wurde geöffnet |
+| Temporärdateien (`~WRD`, `~WRL`) | Weisen auf aktive Office-Bearbeitung hin |
+| Zeitfenster: 18:45–19:04 Uhr | Kompakte Nutzungsphase mit gezielten Dateiaktionen |
 
 ---
 
-## Fazit
-Die Analyse ergab mehrere Hinweise auf die Nutzung des USB-Sticks für potenziell dienstwidrige Zwecke. Gelöschte Dateien konnten teilweise rekonstruiert werden. Die Zeitstempel legen nahe, dass einzelne Dateien gezielt gelöscht oder umbenannt wurden. Dieses Projekt zeigt, wie digitale Artefakte auch nach Löschung verwertbar bleiben.
+## 🧾 Bericht
+
+Der vollständige Untersuchungsbericht befindet sich im Repository unter:
+
+📄 [`/bericht/forensischer_untersuchungsbericht.md`](./bericht/forensischer_untersuchungsbericht.md)
+
+Er enthält:
+- Tabellen zu auffälligen Dateien
+- MACB-Zeitstempelanalyse
+- Artefakte & Screenshots
+- Bewertung & Schlussfolgerung
 
 ---
 
-## Rechtlicher Hinweis
-Alle in diesem Projekt verwendeten Daten wurden vom Autor zu Ausbildungszwecken erstellt. Es wurden keine personenbezogenen oder sensiblen Daten Dritter verwendet.
+## 📷 Screenshots
+
+Eine Auswahl relevanter Screenshots zur Analyse (z. B. FTK Imager, Autopsy File Tree, Zeitstempel) befindet sich im Ordner `/screenshots/`.
 
 ---
 
-## Über mich
-Ich bin Studentin im Studiengang **Cyber Security (B.Sc.)** mit besonderem Interesse an **IT-Forensik** und digitaler Beweissicherung im öffentlichen Dienst. Dieses Projekt entstand im Eigenstudium zur Vertiefung forensischer Kompetenzen.
+## ⚖️ Rechtlicher Hinweis
+
+Alle in diesem Projekt verwendeten Dateien, Dateinamen und Inhalte wurden ausschließlich zu **Ausbildungszwecken** künstlich erzeugt. Es wurden keinerlei reale personenbezogene oder sicherheitskritische Daten verwendet.
 
 ---
 
-## Lizenz
-Dieses Repository steht unter der MIT-Lizenz. Das erzeugte Image ist nicht enthalten und verbleibt aus Datenschutz- und Speichergründen lokal.
+## 👤 Über mich
+
+Ich studiere **Cyber Security (B.Sc.)** im berufsbegleitenden Format mit besonderem Interesse an **digitaler Forensik und sicherheitsrelevanter IT im öffentlichen Dienst**. Dieses Projekt entstand zur eigenständigen Vertiefung praktischer Kompetenzen in der IT-Forensik.
+
+---
+
+## 📄 Lizenz
+
+Dieses Repository steht unter der **MIT-Lizenz**.  
+Das forensische Image selbst ist aus Speicher- und Datenschutzgründen **nicht im Repository enthalten**.
+
