@@ -3,20 +3,20 @@
 ## 1. Allgemeine Informationen
 
 **Untersuchungsgegenstand:**  
-USB-Stick (FAT32 / NTFS), Kapazität: XX GB
+USB-Stick (FAT16), Kapazität: 1,99 GB
 
 **Datum der Sicherstellung:**  
-[TT.MM.JJJJ]
+06.05.2025
 
 **Datum der Analyse:**  
-[TT.MM.JJJJ]
+07.05.2025
 
 **Analystin:**  
-[Dein Name]
+[R. Metz]
 
 **Verwendete Tools:**  
-- Autopsy (Version X.X)
-- FTK Imager (zur Image-Erstellung)
+- Autopsy (Version 4.22.1)
+- FTK Imager (Version 4.7.3.81, zur Image-Erstellung)
 - Windows 10 (Analyse-Umgebung)
 - Hash-Funktion: MD5 / SHA1
 
@@ -24,7 +24,7 @@ USB-Stick (FAT32 / NTFS), Kapazität: XX GB
 
 ## 2. Fallbeschreibung
 
-Am [TT.MM.JJJJ] wurde ein USB-Stick aufgefunden, dessen Inhalt Hinweise auf die Speicherung vertraulicher oder unerlaubter Dateien gibt. Mehrere Dateien scheinen gelöscht oder umbenannt worden zu sein. Ziel der Analyse ist die Wiederherstellung dieser Daten sowie die Nachvollziehbarkeit der Nutzung durch Zeitstempel und Artefakte.
+Am 06.05.2025 wurde ein USB-Stick aufgefunden, dessen Inhalt Hinweise auf die Speicherung vertraulicher oder unerlaubter Dateien gibt. Mehrere Dateien scheinen gelöscht oder umbenannt worden zu sein. Ziel der Analyse ist die Wiederherstellung dieser Daten sowie die Nachvollziehbarkeit der Nutzung durch Zeitstempel und Artefakte.
 
 ---
 
