@@ -111,8 +111,11 @@ Eine vollständige Übersicht der gelöschten Dateien befindet sich hier:
 
 ## 5. Bewertung & Schlussfolgerung
 
-Die forensische Analyse hat gezeigt, dass der USB-Stick **gezielt genutzt wurde**, um sensible oder auffällig benannte Dateien zu speichern und anschließend teilweise zu löschen. Die wiederhergestellten Daten lassen auf eine **intentionale Nutzung im Kontext dienstlicher Informationen** schließen.
+Die forensische Untersuchung hat ergeben, dass der USB-Stick **gezielt und bewusst genutzt wurde**, um dienstlich relevante sowie potenziell sensible Dateien zu speichern, zu bearbeiten und anschließend teilweise zu löschen. Die analysierte Ordnerstruktur, Dateinamen und gelöschten Inhalte lassen auf eine strukturierte und thematisch gegliederte Ablage schließen.
 
+Zeitstempelanalysen (MACB) sowie die identifizierten Artefakte deuten auf eine **kompakte Nutzungssitzung** am 06.05.2025 hin, bei der gezielte Dateioperationen vorgenommen wurden. Temporärdateien aus Microsoft Word sowie gelöschte, aber rekonstruierbare Dokumente belegen eine aktive Nutzung zur Bearbeitung interner Inhalte. Die Verwendung von Dateinamen wie `vpn_zugangsdaten.txt` oder `gehaltsliste_2022.xlsx` sowie der Versuch, diese zu löschen oder im Ordner `/Gelöscht` abzulegen, spricht für ein **bewusstes Vorgehen**, möglicherweise mit dem Ziel, Spuren zu verschleiern oder Dateien unauffällig zu entfernen.
+
+Im Rahmen der Zielsetzung – nämlich die Wiederherstellung gelöschter Inhalte und die Nachvollziehbarkeit der Nutzung – konnten die gestellten Fragen vollständig beantwortet und der Ablauf der Nutzung plausibel rekonstruiert werden.
 ---
 
 ## 6. Screenshots & Belege
