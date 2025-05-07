@@ -37,7 +37,7 @@ Am 06.05.2025 wurde ein USB-Stick aufgefunden, dessen Inhalt Hinweise auf die Sp
 - Die Integrität wurde durch folgende Hashwerte dokumentiert:
 
 MD5: fbed49a7180efb3c371a3ea85a5e2608,
-SHA-1: bf0621d955e244938e6b5bfac00fcede0a63d33f
+SHA1: bf0621d955e244938e6b5bfac00fcede0a63d33f
 
 ### 3.2 Import & Analyse
 
