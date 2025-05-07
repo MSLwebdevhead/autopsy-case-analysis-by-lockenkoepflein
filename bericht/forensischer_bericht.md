@@ -53,9 +53,23 @@ Am 06.05.2025 wurde ein USB-Stick aufgefunden, dessen Inhalt Hinweise auf die Sp
 
 ### 4.1 Verzeichnisse & Dateien
 
-Es wurden insgesamt **XX Dateien** gefunden, darunter:
+Es wurden folgende Dateien gefunden:
 
 [Dateiübersicht als CSV anzeigen](../dokumentation/usb_image.001.csv)
+
+## Übersicht: Auffällige Dateien auf dem USB-Stick
+
+| Ordner         | Dateiname                | Status     | Typ           | Auffälligkeit / Kommentar                           |
+|----------------|--------------------------|------------|----------------|-----------------------------------------------------|
+| /Zugänge       | vpn_zugangsdaten.txt     | gelöscht   | Textdatei      | Zugangsdaten zu einem VPN-Server, Inhalt rekonstruierbar |
+| /Zugänge       | admin_passwoerter.xlsx   | vorhanden  | Excel-Datei    | Plausible Liste mit Admin-Zugangsdaten              |
+| /Privat        | nudes.jpg                | gelöscht   | Bild           | Provokanter Dateiname, Inhalt unbedenklich          |
+| /Downloads     | spotify_crack.zip        | vorhanden  | ZIP-Archiv     | Verdacht auf illegale Software, enthält leere Datei |
+| /Tools         | putty.exe                | vorhanden  | .exe-Datei     | Typische Remote-Access-Software                     |
+| /Gelöscht      | gehaltsliste_2022.xlsx   | gelöscht   | Excel-Datei    | Interne Gehaltsdaten, rekonstruierbar               |
+| /Gelöscht      | kündigung.docx           | gelöscht   | Word-Dokument  | Enthält Kündigungsschreiben                         |
+| /Privat        | urlaub2023.jpg           | vorhanden  | Bild           | Privatbild, unauffällig                             |
+
 
 ### 4.2 Zeitstempelanalyse (MACB)
 
