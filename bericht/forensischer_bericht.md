@@ -55,12 +55,7 @@ Am 06.05.2025 wurde ein USB-Stick aufgefunden, dessen Inhalt Hinweise auf die Sp
 
 Es wurden insgesamt **XX Dateien** gefunden, darunter:
 
-| Dateiname                 | Status       | Letzter Zugriff | Letzte Änderung | Anmerkung                      |
-|--------------------------|--------------|------------------|------------------|-------------------------------|
-| `vpn_zugangsdaten.txt`   | gelöscht     | 05.03.2024 09:21 | 04.03.2024 15:12 | Inhalte konnten rekonstruiert werden |
-| `gehaltsliste_2022.xlsx` | vorhanden    | 02.03.2024 11:01 | 01.03.2024 17:44 | Verdächtiger Inhalt, Zeitstempel-Kollision |
-| `putty.exe`              | vorhanden    | 03.03.2024 12:33 | 03.03.2024 12:30 | Möglicherweise portable SSH-Software |
-| `nudes.jpg`              | gelöscht     | 04.03.2024 08:00 | 02.03.2024 16:15 | Nur Dateiname, Inhalt war harmlos |
+[Dateiübersicht als CSV anzeigen](../dokumentation/usb_image.001.csv)
 
 ### 4.2 Zeitstempelanalyse (MACB)
 
