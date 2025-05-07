@@ -74,8 +74,14 @@ Im Rahmen der Analyse wurden die auf dem USB-Stick gespeicherten Dateien systema
 ### 4.2 Zeitstempelanalyse (MACB)
 
 Auffällige Manipulation bei mehreren Dateien, z. B.:
-- Zugriffszeit **nach** Löschzeit
-- „Created“-Zeit ≠ „Modified“-Zeit
+
+- Zugriffszeit **nach** Löschzeit  
+  → Bei der Datei `vpn_zugangsdaten.txt` liegt der letzte Zugriff nach dem angegebenen Löschzeitpunkt, was auf ein inkonsistentes Dateisystemverhalten oder einen Zugriff kurz vor dem endgültigen Entfernen hindeuten könnte.
+
+- „Created“-Zeit ≠ „Modified“-Zeit  
+  → Bei der Datei `gehaltsliste_2022.xlsx` ist die Erstellungszeit deutlich früher als die letzte Änderung. Dies spricht für eine nachträgliche Bearbeitung oder einen Kopiervorgang mit anschließender Modifikation.
+
+Solche Abweichungen deuten auf eine gezielte Nutzung oder Manipulation einzelner Dateien hin. Die zeitnahe Erstellung, Bearbeitung und Löschung sensibler Dateien innerhalb weniger Minuten spricht für ein bewusstes Vorgehen und mögliche Versuche, Spuren zu verwischen.
 
 ### 4.3 Artefakte
 
