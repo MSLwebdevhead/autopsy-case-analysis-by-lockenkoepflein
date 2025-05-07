@@ -90,7 +90,7 @@ Beispiele:
 
 Solche Zeitstempel-Muster lassen sich als Hinweis auf gezielte inhaltliche Bearbeitungen interpretieren – insbesondere, wenn sie in engem zeitlichen Zusammenhang mit Löschvorgängen oder Zugriffen stehen.
 
-Alle analysierten Zeitstempel (Erstellung, Änderung und Zugriff) befinden sich innerhalb eines kompakten Zeitraums von etwa [z. B. 18:45 Uhr bis 19:05 Uhr] am 06.05.2025. Dies spricht für eine konzentrierte Nutzung des USB-Sticks in einer kurzen Sitzung, vermutlich im Zusammenhang mit gezielten Dateioperationen wie dem Erstellen, Bearbeiten und anschließenden Löschen sensibler Inhalte.
+Alle analysierten Zeitstempel (Erstellung, Änderung und Zugriff) befinden sich innerhalb eines kompakten Zeitraums von etwa [18:45 Uhr bis 19:04 Uhr] am 06.05.2025. Dies spricht für eine konzentrierte Nutzung des USB-Sticks in einer kurzen Sitzung, vermutlich im Zusammenhang mit gezielten Dateioperationen wie dem Erstellen, Bearbeiten und anschließenden Löschen sensibler Inhalte.
 
 [Dateiübersicht der analysierten Zeitstempel](../dokumentation/Metadata_MACB.csv)
 
