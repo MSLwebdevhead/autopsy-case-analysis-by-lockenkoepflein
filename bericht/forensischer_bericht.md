@@ -70,18 +70,25 @@ Im Rahmen der Analyse wurden die auf dem USB-Stick gespeicherten Dateien systema
 | /Gelöscht      | kündigung.docx           | gelöscht   | Word-Dokument  | Enthält Kündigungsschreiben                         |
 | /Privat        | urlaub2023.jpg           | vorhanden  | Bild           | Privatbild, unauffällig                             |
 
-
 ### 4.2 Zeitstempelanalyse (MACB)
 
-Auffällige Manipulation bei mehreren Dateien, z. B.:
+Die Analyse der Dateiattribute zeigt bei mehreren Dateien Unterschiede zwischen Erstellungs- und Änderungszeit. Dies spricht für eine gezielte Nutzung und nachträgliche Bearbeitung.
 
-- Zugriffszeit **nach** Löschzeit  
-  → Bei der Datei `vpn_zugangsdaten.txt` liegt der letzte Zugriff nach dem angegebenen Löschzeitpunkt, was auf ein inkonsistentes Dateisystemverhalten oder einen Zugriff kurz vor dem endgültigen Entfernen hindeuten könnte.
+Beispiele:
 
-- „Created“-Zeit ≠ „Modified“-Zeit  
-  → Bei der Datei `gehaltsliste_2022.xlsx` ist die Erstellungszeit deutlich früher als die letzte Änderung. Dies spricht für eine nachträgliche Bearbeitung oder einen Kopiervorgang mit anschließender Modifikation.
+- **Firmenintern.docx**  
+  - Erstellt: 06.05.2025, 18:48 Uhr  
+  - Zuletzt geändert: 06.05.2025, 18:51 Uhr  
+  - Bearbeitet mit: Microsoft Office Word  
+  → Die Datei wurde innerhalb weniger Minuten nach Erstellung bearbeitet, was auf eine bewusste Anpassung vor dem Speichern oder Weitergeben hindeuten kann.
 
-Solche Abweichungen deuten auf eine gezielte Nutzung oder Manipulation einzelner Dateien hin. Die zeitnahe Erstellung, Bearbeitung und Löschung sensibler Dateien innerhalb weniger Minuten spricht für ein bewusstes Vorgehen und mögliche Versuche, Spuren zu verwischen.
+- **Temporäre Word-Dateien (_WRD0000.tmp, _WRD0002.tmp, _WRL0001.tmp)**  
+  - Alle erstellt und modifiziert zwischen 18:48 Uhr und 18:51 Uhr  
+  - Gehören zu einer Word-Sitzung, die Dateiänderungen speichert  
+  → Diese Dateien bestätigen die Bearbeitung von `Firmenintern.docx` und geben Hinweise auf den Zeitpunkt und Umfang der Nutzung.
+
+Solche Zeitstempel-Muster lassen sich als Hinweis auf gezielte inhaltliche Bearbeitungen interpretieren – insbesondere, wenn sie in engem zeitlichen Zusammenhang mit Löschvorgängen oder Zugriffen stehen.
+
 
 ### 4.3 Artefakte
 
