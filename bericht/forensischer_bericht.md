@@ -138,7 +138,7 @@ Nachfolgend eine Auswahl an relevanten Screenshots zur Dokumentation der Untersu
 ![File Types](../screenshots/Screenshot_Autopsy_FileTypes.png)
 
 ### Screenshot: Galerieansicht in Autopsy (Bilder)
-![Image Viewer](../screenshots/Screenshot_Image_Video Gallery.png)
+![Image Viewer](../screenshots/Screenshot_Image_Video_Gallery.png)
 
 ### Screenshot: Autopsy – Typenzusammenfassung
 ![Summary](../screenshots/Summary_FileTypes.png)
