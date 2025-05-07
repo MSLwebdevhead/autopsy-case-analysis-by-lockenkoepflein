@@ -131,13 +131,5 @@ Siehe Ordner `/screenshots/` im Repository.
 
 ---
 
-## 8. Anhang (optional)
-
-- Image-Metadaten
-- Zeitachsenübersicht
-- Dateiübersicht (CSV)
-
----
-
-*Ende des Berichts – Erstellt am [TT.MM.JJJJ]*
+*Ende des Berichts – Erstellt am [07.05.2025]*
 
