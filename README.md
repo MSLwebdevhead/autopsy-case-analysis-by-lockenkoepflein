@@ -60,11 +60,6 @@ Die Analyse ergab mehrere Hinweise auf die Nutzung des USB-Sticks für potenziel
 
 ---
 
-## Screenshots
-(Screenshots der Analyse-Oberfläche, Fundstellen, Zeitachsen können hier ergänzt werden)
-
----
-
 ## Rechtlicher Hinweis
 Alle in diesem Projekt verwendeten Daten wurden vom Autor zu Ausbildungszwecken erstellt. Es wurden keine personenbezogenen oder sensiblen Daten Dritter verwendet.
 
