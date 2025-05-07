@@ -53,7 +53,7 @@ Am 06.05.2025 wurde ein USB-Stick aufgefunden, dessen Inhalt Hinweise auf die Sp
 
 ### 4.1 Verzeichnisse & Dateien
 
-Es wurden folgende Dateien gefunden:
+Im Rahmen der Analyse wurden die auf dem USB-Stick gespeicherten Dateien systematisch untersucht. Die folgende Tabelle fasst die besonders relevanten oder auffälligen Dateien zusammen. Eine vollständige Dateiliste inklusive Metadaten befindet sich im Anhang als CSV-Datei.
 
 [Dateiübersicht als CSV anzeigen](../dokumentation/usb_image.001.csv)
 
