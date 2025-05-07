@@ -95,9 +95,18 @@ Alle analysierten Zeitstempel (Erstellung, Änderung und Zugriff) befinden sich 
 
 ### 4.3 Artefakte
 
-- Temporärdateien (`.tmp`) im Root-Verzeichnis
-- Verdächtige Ordnerstruktur: `/Zugänge`, `/Privat`, `/Gelöscht`
-- Recycle Bin-Überreste identifizierbar
+Bei der Analyse konnten mehrere typische Nutzungsartefakte identifiziert werden:
+
+- **Temporärdateien**: Im Wurzelverzeichnis des USB-Sticks fanden sich temporäre Dateien mit den Präfixen `~WRD` und `~WRL` (z. B. `_WRD0000.tmp`, `_WRL0001.tmp`). Diese werden von Microsoft Word beim Bearbeiten von Dokumenten automatisch erzeugt. Ihr Vorhandensein deutet darauf hin, dass mindestens ein Word-Dokument (z. B. `firmenintern.docx`) aktiv geöffnet und bearbeitet wurde. Da diese Dateien nicht gelöscht wurden, ist davon auszugehen, dass die Bearbeitung nicht ordnungsgemäß abgeschlossen oder dass gezielt manipuliert wurde.
+
+- **Verdächtige Ordnerstruktur**: Die existierenden Verzeichnisse `/Zugänge`, `/Privat` und `/Gelöscht` legen eine thematische Sortierung sensibler Inhalte nahe. Im Ordner `/Gelöscht` fanden sich rekonstruierbare Dateien mit potenziell vertraulichem Inhalt (z. B. `gehaltsliste_2022.xlsx`, `vpn_zugangsdaten.txt`).
+
+- **Gelöschte Dateien**: Die exportierte Liste gelöschter Dateien zeigt, dass mehrere dieser sensiblen Dateien nach ihrer Erstellung oder Bearbeitung gezielt gelöscht wurden. Sie konnten jedoch vollständig wiederhergestellt und analysiert werden.
+
+- **$Recycle.Bin**: Überreste im Papierkorb-Ordner belegen, dass mehrere Dateien nicht endgültig gelöscht, sondern zunächst in den Papierkorb verschoben wurden – ein typisches Verhalten bei Löschung über die Benutzeroberfläche.
+
+Eine vollständige Übersicht der gelöschten Dateien befindet sich hier: 
+
 
 ---
 
