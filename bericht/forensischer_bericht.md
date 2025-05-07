@@ -58,7 +58,7 @@ Im Rahmen der Analyse wurden die auf dem USB-Stick gespeicherten Dateien systema
 
 [Dateiübersicht als CSV anzeigen](../dokumentation/usb_image.001.csv)
 
-## Übersicht: Auffällige Dateien auf dem USB-Stick
+Übersicht: Auffällige Dateien auf dem USB-Stick
 
 | Ordner         | Dateiname                | Status     | Typ           | Auffälligkeit / Kommentar                           |
 |----------------|--------------------------|------------|----------------|-----------------------------------------------------|
