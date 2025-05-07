@@ -107,7 +107,7 @@ Bei der Analyse konnten mehrere typische Nutzungsartefakte identifiziert werden:
 
 Eine vollständige Übersicht der gelöschten Dateien befindet sich hier: 
 
-
+[Dateiübersicht der gelöschten Dateien](../dokumentation/deleted_files.csv)
 ---
 
 ## 5. Bewertung & Schlussfolgerung
