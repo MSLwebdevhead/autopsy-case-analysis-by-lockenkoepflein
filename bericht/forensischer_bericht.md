@@ -36,7 +36,7 @@ Am 06.05.2025 wurde ein USB-Stick aufgefunden, dessen Inhalt Hinweise auf die Sp
 - Es wurden **keine Veränderungen** am Originalmedium vorgenommen (Read-Only-Zugriff).
 - Die Integrität wurde durch folgende Hashwerte dokumentiert:
 
-![Hashwerte Screenshot](screenshots/Screenshot_Hash_Values.png)
+![Hashwerte Screenshot](../screenshots/Screenshot_Hash_Values.png)
 
 ### 3.2 Import & Analyse
 
