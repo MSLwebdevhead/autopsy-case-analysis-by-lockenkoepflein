@@ -159,6 +159,7 @@ Nachfolgend eine Auswahl an relevanten Screenshots zur Dokumentation der Untersu
 - `usb_image.001.csv` – Vollständige Dateiliste
 - `Metadata_MACB.csv` – Zeitstempelanalyse
 - `deleted_files.csv` – Übersicht gelöschter Dateien
+- `imaging_protokoll.txt` – Details zur Image-Erstellung
 
 ---
 
