@@ -120,7 +120,29 @@ Im Rahmen der Zielsetzung – nämlich die Wiederherstellung gelöschter Inhalte
 
 ## 6. Screenshots & Belege
 
-Siehe Ordner `/screenshots/` im Repository.
+Nachfolgend eine Auswahl an relevanten Screenshots zur Dokumentation der Untersuchungsergebnisse:
+
+### Screenshot: FTK Imager – Image-Erstellung
+![FTK Imager](../screenshots/Screenshot_FTK_Imager.png)
+
+### Screenshot: Hashwerte zur Verifikation
+![Hashwerte](../screenshots/Screenshot_Hash_Values.png)
+
+### Screenshot: Autopsy – Dateiansicht im File Tree
+![Autopsy File Tree](../screenshots/Screenshot_Autopsy_FileTree.png)
+
+### Screenshot: Autopsy – Typische Artefakte (Temp-Dateien)
+![Artefakte](../screenshots/Screenshot_Autopsy_Artefakte_Temp_Dateien.png)
+
+### Screenshot: Autopsy – Dateitypenübersicht
+![File Types](../screenshots/Screenshot_Autopsy_FileTypes.png)
+
+### Screenshot: Galerieansicht in Autopsy (Bilder)
+![Image Viewer](../screenshots/Screenshot_Image_Video Gallery.png)
+
+### Screenshot: Autopsy – Typenzusammenfassung
+![Summary](../screenshots/Summary_FileTypes.png)
+
 
 ---
 
