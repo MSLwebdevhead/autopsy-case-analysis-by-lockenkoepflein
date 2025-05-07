@@ -132,5 +132,14 @@ Siehe Ordner `/screenshots/` im Repository.
 
 ---
 
+## 8. Anhang
+
+- `usb_image.001.csv` – Vollständige Dateiliste
+- `Metadata_MACB.csv` – Zeitstempelanalyse
+- `deleted_files.csv` – Übersicht gelöschter Dateien
+- `image_hashwerte.txt` – Hashverlauf und Image-Protokoll
+
+---
+
 *Ende des Berichts – Erstellt am [07.05.2025]*
 
