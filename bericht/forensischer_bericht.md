@@ -116,7 +116,6 @@ Die forensische Untersuchung hat ergeben, dass der USB-Stick **gezielt und bewus
 Zeitstempelanalysen (MACB) sowie die identifizierten Artefakte deuten auf eine **kompakte Nutzungssitzung** am 06.05.2025 hin, bei der gezielte Dateioperationen vorgenommen wurden. Temporärdateien aus Microsoft Word sowie gelöschte, aber rekonstruierbare Dokumente belegen eine aktive Nutzung zur Bearbeitung interner Inhalte. Die Verwendung von Dateinamen wie `vpn_zugangsdaten.txt` oder `gehaltsliste_2022.xlsx` sowie der Versuch, diese zu löschen oder im Ordner `/Gelöscht` abzulegen, spricht für ein **bewusstes Vorgehen**, möglicherweise mit dem Ziel, Spuren zu verschleiern oder Dateien unauffällig zu entfernen.
 
 Im Rahmen der Zielsetzung – nämlich die Wiederherstellung gelöschter Inhalte und die Nachvollziehbarkeit der Nutzung – konnten die gestellten Fragen vollständig beantwortet und der Ablauf der Nutzung plausibel rekonstruiert werden.
----
 
 ## 6. Screenshots & Belege
 
